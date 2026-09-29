@@ -1,0 +1,15 @@
+{
+  "name": "memonav-ai",
+  "version": "1.0.0",
+  "description": "MemoNav AI - Remember the Journey. Learn the User. Guide Better.",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm --prefix client build",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

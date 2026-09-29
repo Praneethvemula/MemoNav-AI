@@ -1,0 +1,110 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  --primary-navy: #0f172a;
+  --primary-blue: #2563eb;
+  --accent-blue: #3b82f6;
+  --success-green: #10b981;
+  --warning-amber: #f59e0b;
+  --emergency-red: #ef4444;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #0b1120;
+  color: #f8fafc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessibility Focus Styling */
+:focus-visible {
+  outline: 3px solid #38bdf8 !important;
+  outline-offset: 3px !important;
+}
+
+/* High-Contrast Accessible Dark Mode filter for OpenStreetMap free tiles (No API key required) */
+.leaflet-dark-tiles .leaflet-tile {
+  filter: brightness(0.65) invert(1) contrast(2.4) hue-rotate(205deg) saturate(0.25) brightness(0.85);
+}
+
+/* High Contrast Mode */
+.high-contrast {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.high-contrast .bg-slate-900,
+.high-contrast .bg-slate-800,
+.high-contrast .bg-slate-950 {
+  background-color: #000000 !important;
+  border-color: #ffffff !important;
+  border-width: 2px !important;
+}
+
+.high-contrast button {
+  border: 2px solid #ffffff !important;
+}
+
+.high-contrast .text-slate-400,
+.high-contrast .text-slate-300 {
+  color: #ffffff !important;
+}
+
+/* Large Text Mode */
+.large-text {
+  font-size: 1.18rem !important;
+}
+
+.large-text h1 {
+  font-size: 2.5rem !important;
+}
+
+.large-text h2 {
+  font-size: 2rem !important;
+}
+
+.large-text h3 {
+  font-size: 1.5rem !important;
+}
+
+.large-text button {
+  font-size: 1.25rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+/* Reduced Animation Mode */
+.reduced-animation * {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* Pulse animation for voice listening */
+@keyframes audioPulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 1; filter: drop-shadow(0 0 16px rgba(59, 130, 246, 0.8)); }
+  100% { transform: scale(1); opacity: 0.8; }
+}
+
+.listening-pulse {
+  animation: audioPulse 1.6s infinite ease-in-out;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

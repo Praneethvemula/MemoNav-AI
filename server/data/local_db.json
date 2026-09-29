@@ -1,0 +1,571 @@
+{
+  "users": [],
+  "memories": [
+    {
+      "_id": "c19e7dc6045ddb242b6e09dd",
+      "userId": "demo_user_123",
+      "type": "difficult_crossing",
+      "title": "Crowded crossing near City Hospital",
+      "description": "User experienced difficulty crossing because of heavy crowd and rapid traffic.",
+      "location": "Main Hospital Road Crosswalk",
+      "latitude": 17.387500000000003,
+      "longitude": 78.4887,
+      "importance": 5,
+      "tags": [
+        "crossing",
+        "crowded",
+        "traffic",
+        "DEMO DATA"
+      ],
+      "source": "local_mongo",
+      "confidence": 0.98,
+      "createdAt": "2026-09-28T06:41:21.541Z",
+      "lastAccessedAt": "2026-09-28T06:41:21.541Z"
+    },
+    {
+      "_id": "969df1733eab7d06db17c0e6",
+      "userId": "demo_user_123",
+      "type": "instruction",
+      "title": "Hospital entrance is on the left",
+      "description": "Main pedestrian ramp entrance is 15 meters on the left side past the emergency bay.",
+      "location": "City Hospital West Gate",
+      "latitude": 17.39,
+      "longitude": 78.4907,
+      "importance": 4,
+      "tags": [
+        "hospital",
+        "entrance",
+        "ramp",
+        "DEMO DATA"
+      ],
+      "source": "local_mongo",
+      "confidence": 0.95,
+      "createdAt": "2026-09-28T06:41:21.546Z",
+      "lastAccessedAt": "2026-09-28T06:41:21.546Z"
+    },
+    {
+      "_id": "9c1bf6f3cc0f2716e505e16a",
+      "userId": "demo_user_123",
+      "type": "obstacle",
+      "title": "Broken tactile paving tile",
+      "description": "Uneven paving tile right before metro entrance stairs.",
+      "location": "Central Metro Exit B",
+      "latitude": 17.3835,
+      "longitude": 78.4857,
+      "importance": 4,
+      "tags": [
+        "obstacle",
+        "tactile_paving",
+        "DEMO DATA"
+      ],
+      "source": "local_mongo",
+      "confidence": 0.92,
+      "createdAt": "2026-09-28T06:41:21.547Z",
+      "lastAccessedAt": "2026-09-28T06:41:21.547Z"
+    },
+    {
+      "_id": "542ef4fa282de9327978ec0a",
+      "userId": "demo_user_123",
+      "type": "preference",
+      "title": "Preferred short voice instructions",
+      "description": "User prefers concise, essential verbal navigation cues without filler phrases.",
+      "location": "General Profile",
+      "importance": 4,
+      "tags": [
+        "preference",
+        "audio",
+        "DEMO DATA"
+      ],
+      "source": "local_mongo",
+      "confidence": 1,
+      "createdAt": "2026-09-28T06:41:21.549Z",
+      "lastAccessedAt": "2026-09-28T06:41:21.549Z"
+    },
+    {
+      "_id": "245738ea7865984adbfb230f",
+      "userId": "demo_user_123",
+      "type": "safety",
+      "title": "Well-lit pedestrian pathway",
+      "description": "Safe, quiet, illuminated side street suitable for evening walking.",
+      "location": "Park Lane East",
+      "latitude": 17.382,
+      "longitude": 78.4887,
+      "importance": 3,
+      "tags": [
+        "safety",
+        "lighting",
+        "DEMO DATA"
+      ],
+      "source": "local_mongo",
+      "confidence": 0.9,
+      "createdAt": "2026-09-28T06:41:21.553Z",
+      "lastAccessedAt": "2026-09-28T06:41:21.553Z"
+    },
+    {
+      "_id": "00bbab1927ed786236bc0223",
+      "userId": "test_user_1790577822858",
+      "type": "difficult_crossing",
+      "title": "Hospital South Crosswalk",
+      "description": "Heavy crowd during morning shift change.",
+      "location": "Current Position",
+      "latitude": 17.3855,
+      "longitude": 78.487,
+      "importance": 5,
+      "tags": [
+        "crossing",
+        "hospital"
+      ],
+      "source": "local_mongo",
+      "confidence": 0.95,
+      "createdAt": "2026-09-28T06:43:42.859Z",
+      "lastAccessedAt": "2026-09-28T06:43:42.859Z"
+    },
+    {
+      "_id": "24c45dc7d34e809764d55d26",
+      "userId": "test_user_1790577822858",
+      "type": "difficult_crossing",
+      "title": "Crowded Crossing",
+      "description": "User experienced difficulty crossing because of heavy crowd.",
+      "location": "Current Position",
+      "latitude": 17.3855,
+      "longitude": 78.487,
+      "importance": 4,
+      "tags": [
+        "difficult_crossing",
+        "voice_reported"
+      ],
+      "source": "local_mongo",
+      "confidence": 0.95,
+      "createdAt": "2026-09-28T06:43:42.882Z",
+      "lastAccessedAt": "2026-09-28T06:43:42.882Z"
+    },
+    {
+      "_id": "c6ac008efef77ae33ec40c0d",
+      "userId": "test_user_1790604142221",
+      "type": "difficult_crossing",
+      "title": "Hospital South Crosswalk",
+      "description": "Heavy crowd during morning shift change.",
+      "location": "Current Position",
+      "latitude": 17.3855,
+      "longitude": 78.487,
+      "importance": 5,
+      "tags": [
+        "crossing",
+        "hospital"
+      ],
+      "source": "local_mongo",
+      "confidence": 0.95,
+      "createdAt": "2026-09-28T14:02:22.221Z",
+      "lastAccessedAt": "2026-09-28T14:02:22.221Z"
+    },
+    {
+      "_id": "ac93aba3707ed94e96dbbc94",
+      "userId": "test_user_1790604142221",
+      "type": "difficult_crossing",
+      "title": "Crowded Crossing",
+      "description": "User experienced difficulty crossing because of heavy crowd.",
+      "location": "Current Position",
+      "latitude": 17.3855,
+      "longitude": 78.487,
+      "importance": 4,
+      "tags": [
+        "difficult_crossing",
+        "voice_reported"
+      ],
+      "source": "local_mongo",
+      "confidence": 0.95,
+      "createdAt": "2026-09-28T14:02:22.263Z",
+      "lastAccessedAt": "2026-09-28T14:02:22.263Z"
+    },
+    {
+      "_id": "56f4b8e852395e1f270a2247",
+      "userId": "test_user_1790669345001",
+      "type": "difficult_crossing",
+      "title": "Hospital South Crosswalk",
+      "description": "Heavy crowd during morning shift change.",
+      "location": "Current Position",
+      "latitude": 17.3855,
+      "longitude": 78.487,
+      "importance": 5,
+      "tags": [
+        "crossing",
+        "hospital"
+      ],
+      "source": "local_mongo",
+      "confidence": 0.95,
+      "createdAt": "2026-09-29T08:09:05.002Z",
+      "lastAccessedAt": "2026-09-29T08:09:05.002Z"
+    },
+    {
+      "_id": "c994c9dfbe16faa6284248bf",
+      "userId": "test_user_1790669345001",
+      "type": "difficult_crossing",
+      "title": "Crowded Crossing",
+      "description": "User experienced difficulty crossing because of heavy crowd.",
+      "location": "Current Position",
+      "latitude": 17.3855,
+      "longitude": 78.487,
+      "importance": 4,
+      "tags": [
+        "difficult_crossing",
+        "voice_reported"
+      ],
+      "source": "local_mongo",
+      "confidence": 0.95,
+      "createdAt": "2026-09-29T08:09:05.016Z",
+      "lastAccessedAt": "2026-09-29T08:09:05.016Z"
+    },
+    {
+      "_id": "eed33977732d02910555e731",
+      "userId": "demo_user_123",
+      "type": "difficult_crossing",
+      "title": "Crowded Crossing",
+      "description": "User experienced difficulty crossing because of heavy crowd.",
+      "location": "Current Position",
+      "latitude": 17.385,
+      "longitude": 78.4867,
+      "importance": 4,
+      "tags": [
+        "difficult_crossing",
+        "voice_reported"
+      ],
+      "source": "local_mongo",
+      "confidence": 0.95,
+      "createdAt": "2026-09-29T08:13:31.073Z",
+      "lastAccessedAt": "2026-09-29T08:13:31.073Z"
+    },
+    {
+      "_id": "526d94f19173030b6053ef46",
+      "userId": "test_user_1790669810911",
+      "type": "difficult_crossing",
+      "title": "Hospital South Crosswalk",
+      "description": "Heavy crowd during morning shift change.",
+      "location": "Current Position",
+      "latitude": 17.3855,
+      "longitude": 78.487,
+      "importance": 5,
+      "tags": [
+        "crossing",
+        "hospital"
+      ],
+      "source": "local_mongo",
+      "confidence": 0.95,
+      "createdAt": "2026-09-29T08:16:50.911Z",
+      "lastAccessedAt": "2026-09-29T08:16:50.911Z"
+    },
+    {
+      "_id": "f347680c954a2d2040a6604d",
+      "userId": "test_user_1790669810911",
+      "type": "difficult_crossing",
+      "title": "Crowded Crossing",
+      "description": "User experienced difficulty crossing because of heavy crowd.",
+      "location": "Current Position",
+      "latitude": 17.3855,
+      "longitude": 78.487,
+      "importance": 4,
+      "tags": [
+        "difficult_crossing",
+        "voice_reported"
+      ],
+      "source": "local_mongo",
+      "confidence": 0.95,
+      "createdAt": "2026-09-29T08:16:50.919Z",
+      "lastAccessedAt": "2026-09-29T08:16:50.919Z"
+    }
+  ],
+  "journeys": [
+    {
+      "_id": "1d43c194b649a01ae0d37497",
+      "importantEvents": [
+        {
+          "timeString": "10:30 AM",
+          "timestamp": "2026-09-27T06:41:21.563Z",
+          "type": "started",
+          "description": "Started journey to City Hospital"
+        },
+        {
+          "timeString": "10:36 AM",
+          "timestamp": "2026-09-27T06:47:21.563Z",
+          "type": "crossing_warning",
+          "description": "Crowded crossing encountered on Main Hospital Road"
+        },
+        {
+          "timeString": "10:37 AM",
+          "timestamp": "2026-09-27T06:48:21.563Z",
+          "type": "user_reported",
+          "description": "User reported difficulty crossing due to crowd"
+        },
+        {
+          "timeString": "10:38 AM",
+          "timestamp": "2026-09-27T06:49:21.563Z",
+          "type": "memory_created",
+          "description": "Experience stored in persistent memory"
+        },
+        {
+          "timeString": "10:50 AM",
+          "timestamp": "2026-09-27T07:01:21.563Z",
+          "type": "completed",
+          "description": "Arrived safely at City Hospital"
+        }
+      ],
+      "memoriesCreated": [],
+      "userId": "demo_user_123",
+      "startLocation": {
+        "name": "Home",
+        "latitude": 17.385,
+        "longitude": 78.4867
+      },
+      "destination": {
+        "name": "City Hospital",
+        "latitude": 17.390500000000003,
+        "longitude": 78.4909
+      },
+      "distance": 820,
+      "startTime": "2026-09-27T06:41:21.563Z",
+      "endTime": "2026-09-27T07:01:21.563Z",
+      "status": "completed",
+      "createdAt": "2026-09-28T06:41:21.563Z"
+    },
+    {
+      "_id": "82c077a324f0490e06dec941",
+      "importantEvents": [
+        {
+          "_id": "3d15463e7b52ec81bc509df4",
+          "timestamp": "2026-09-28T06:43:42.874Z",
+          "type": "crossing_warning",
+          "description": "Approaching crowded crosswalk. Slow down."
+        }
+      ],
+      "memoriesCreated": [],
+      "userId": "test_user_1790577822858",
+      "startLocation": {
+        "name": "Home",
+        "latitude": 17.385,
+        "longitude": 78.4867
+      },
+      "destination": {
+        "name": "City Hospital",
+        "latitude": 17.391,
+        "longitude": 78.492
+      },
+      "distance": 750,
+      "startTime": "2026-09-28T06:43:42.870Z",
+      "createdAt": "2026-09-28T06:43:42.870Z"
+    },
+    {
+      "_id": "2d67deffe772adbf1025fbb4",
+      "importantEvents": [
+        {
+          "_id": "5f089d5006f896937bad5c44",
+          "timestamp": "2026-09-28T14:02:22.248Z",
+          "type": "crossing_warning",
+          "description": "Approaching crowded crosswalk. Slow down."
+        }
+      ],
+      "memoriesCreated": [],
+      "userId": "test_user_1790604142221",
+      "startLocation": {
+        "name": "Home",
+        "latitude": 17.385,
+        "longitude": 78.4867
+      },
+      "destination": {
+        "name": "City Hospital",
+        "latitude": 17.391,
+        "longitude": 78.492
+      },
+      "distance": 750,
+      "startTime": "2026-09-28T14:02:22.245Z",
+      "createdAt": "2026-09-28T14:02:22.245Z"
+    },
+    {
+      "_id": "622d369049cb37166405d09f",
+      "importantEvents": [
+        {
+          "_id": "a6fcb7160291a580249df901",
+          "timestamp": "2026-09-29T08:09:05.013Z",
+          "type": "crossing_warning",
+          "description": "Approaching crowded crosswalk. Slow down."
+        }
+      ],
+      "memoriesCreated": [],
+      "userId": "test_user_1790669345001",
+      "startLocation": {
+        "name": "Home",
+        "latitude": 17.385,
+        "longitude": 78.4867
+      },
+      "destination": {
+        "name": "City Hospital",
+        "latitude": 17.391,
+        "longitude": 78.492
+      },
+      "distance": 750,
+      "startTime": "2026-09-29T08:09:05.010Z",
+      "createdAt": "2026-09-29T08:09:05.010Z"
+    },
+    {
+      "_id": "f91d9cd5278676fc44d91d34",
+      "importantEvents": [
+        {
+          "_id": "da1e8d720345c53bf616a85e",
+          "timestamp": "2026-09-29T08:16:50.917Z",
+          "type": "crossing_warning",
+          "description": "Approaching crowded crosswalk. Slow down."
+        }
+      ],
+      "memoriesCreated": [],
+      "userId": "test_user_1790669810911",
+      "startLocation": {
+        "name": "Home",
+        "latitude": 17.385,
+        "longitude": 78.4867
+      },
+      "destination": {
+        "name": "City Hospital",
+        "latitude": 17.391,
+        "longitude": 78.492
+      },
+      "distance": 750,
+      "startTime": "2026-09-29T08:16:50.915Z",
+      "createdAt": "2026-09-29T08:16:50.915Z"
+    }
+  ],
+  "savedPlaces": [
+    {
+      "_id": "92c9ee62e322095441174461",
+      "userId": "demo_user_123",
+      "name": "City General Hospital",
+      "address": "42 Health Boulevard",
+      "latitude": 17.390500000000003,
+      "longitude": 78.4909,
+      "category": "hospital",
+      "icon": "Building2",
+      "notes": "Accessible entrance has audible chime beacon.",
+      "createdAt": "2026-09-28T06:41:21.554Z"
+    },
+    {
+      "_id": "9681c0690cd7e9b684113e3c",
+      "userId": "demo_user_123",
+      "name": "Central Metro Station",
+      "address": "Station Plaza East",
+      "latitude": 17.383200000000002,
+      "longitude": 78.4855,
+      "category": "transit",
+      "icon": "Train",
+      "notes": "Elevator located at Exit C.",
+      "createdAt": "2026-09-28T06:41:21.556Z"
+    },
+    {
+      "_id": "cadf5a8476f0007062afb1bd",
+      "userId": "demo_user_123",
+      "name": "Home",
+      "address": "14 Elmwood Court, Apt 3B",
+      "latitude": 17.385,
+      "longitude": 78.4867,
+      "category": "home",
+      "icon": "Home",
+      "notes": "Three steps to front porch.",
+      "createdAt": "2026-09-28T06:41:21.558Z"
+    }
+  ],
+  "emergencyContacts": [
+    {
+      "_id": "dce605911b44af4a218865cc",
+      "userId": "demo_user_123",
+      "name": "Sarah Chen (Sister)",
+      "relationship": "Primary Caregiver",
+      "phoneNumber": "+1-555-019-2834",
+      "email": "sarah.care@example.com",
+      "isPrimary": true,
+      "createdAt": "2026-09-28T06:41:21.559Z"
+    },
+    {
+      "_id": "c07bc9f5716dab21a673362e",
+      "userId": "demo_user_123",
+      "name": "City Accessibility Response Unit",
+      "relationship": "Support Service",
+      "phoneNumber": "+1-800-555-9110",
+      "email": "dispatch@accessibility.org",
+      "isPrimary": false,
+      "createdAt": "2026-09-28T06:41:21.561Z"
+    }
+  ],
+  "userPreferences": [
+    {
+      "_id": "a5e825e61ccadcb34b34bbe4",
+      "userId": "demo_user_123",
+      "language": "English",
+      "voiceSpeed": "normal",
+      "instructionStyle": "short",
+      "voiceVolume": 1,
+      "enableMemory": true,
+      "highContrast": false,
+      "largeText": false,
+      "reducedAnimation": false,
+      "vibrationFeedback": true,
+      "hindsightSync": true,
+      "updatedAt": "2026-09-28T06:41:21.565Z"
+    },
+    {
+      "_id": "94c4e70b7228b3a0211b138f",
+      "userId": "test_user_1790577822858",
+      "language": "Telugu",
+      "voiceSpeed": "fast",
+      "instructionStyle": "short",
+      "voiceVolume": 1,
+      "enableMemory": true,
+      "highContrast": false,
+      "largeText": false,
+      "reducedAnimation": false,
+      "vibrationFeedback": true,
+      "hindsightSync": true,
+      "updatedAt": "2026-09-28T06:43:42.866Z"
+    },
+    {
+      "_id": "76d3a96d47723c1e15aba448",
+      "userId": "test_user_1790604142221",
+      "language": "Telugu",
+      "voiceSpeed": "fast",
+      "instructionStyle": "short",
+      "voiceVolume": 1,
+      "enableMemory": true,
+      "highContrast": false,
+      "largeText": false,
+      "reducedAnimation": false,
+      "vibrationFeedback": true,
+      "hindsightSync": true,
+      "updatedAt": "2026-09-28T14:02:22.242Z"
+    },
+    {
+      "_id": "e56901208a817891a0b7059e",
+      "userId": "test_user_1790669345001",
+      "language": "Telugu",
+      "voiceSpeed": "fast",
+      "instructionStyle": "short",
+      "voiceVolume": 1,
+      "enableMemory": true,
+      "highContrast": false,
+      "largeText": false,
+      "reducedAnimation": false,
+      "vibrationFeedback": true,
+      "hindsightSync": true,
+      "updatedAt": "2026-09-29T08:09:05.007Z"
+    },
+    {
+      "_id": "479ec36d33271e29a0ecf7a8",
+      "userId": "test_user_1790669810911",
+      "language": "Telugu",
+      "voiceSpeed": "fast",
+      "instructionStyle": "short",
+      "voiceVolume": 1,
+      "enableMemory": true,
+      "highContrast": false,
+      "largeText": false,
+      "reducedAnimation": false,
+      "vibrationFeedback": true,
+      "hindsightSync": true,
+      "updatedAt": "2026-09-29T08:16:50.914Z"
+    }
+  ]
+}
